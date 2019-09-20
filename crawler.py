@@ -41,7 +41,25 @@ def crawl(url, seconds):
             if l not in visitedLinks:
                 crawl(l, seconds)
 
+def breadthFirstCrawl(url, seconds):
+    global downloads
+    queue = []
+    queue.append(url)
 
+    while queue and downloads > 0:
+        currUrl = queue.pop()
+        if currUrl not in visitedLinks and validators.url(currUrl):
+            print(currUrl)
+            visitedLinks.append(currUrl)
+            r = requests.get(currUrl)
+            html = r.text
+            downloads -= 1
+            sleep(seconds)
+            links = parseAndFindLinks(html)
+
+            for l in links:
+                l = normalizeLink(url, l)
+                queue.append(l)
 
 
 def parseAndFindLinks(html):
@@ -70,6 +88,6 @@ visitedLinks = []
 
 for url in urlList:
     downloads = maxDownloads
-    crawl(url, timeBetweenGETRequests)
+    breadthFirstCrawl(url, timeBetweenGETRequests)
 
 
