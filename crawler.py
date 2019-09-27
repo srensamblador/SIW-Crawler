@@ -6,10 +6,15 @@
     - time between requests in milliseconds
     - (Optional) crawling method, depth-first (0) or breadth-first (1). Default = depth-first
 '''
-import sys, requests, validators, urllib
-from urllib import robotparser, parse
+import requests
+import sys
+import urllib
+import validators
 from time import sleep
+from urllib import robotparser, parse
+
 from bs4 import BeautifulSoup
+
 
 def parseArgs():
     arguments = sys.argv
@@ -20,9 +25,9 @@ def parseArgs():
     maxDownloads = int(arguments[2])
     timeBetweenGETRequests = int(arguments[3])
     if len(arguments) == 5:
-        if int(arguments[5]) == 0:
+        if int(arguments[4]) == 0:
             depthFirst = True
-        elif int(arguments[5]) == 1:
+        elif int(arguments[4]) == 1:
             depthFirst = False
         else:
             raise TypeError("Invalid argument for crawl method")
@@ -35,7 +40,7 @@ def getURLS(filename):
     f = open(filename)
     urlList= []
     for line in f:
-        urlList.append(line)
+        urlList.append(line.strip("\n"))
     return urlList
 
 def depthFirstCrawl(url, seconds):
@@ -99,13 +104,17 @@ def normalizeLink(url, link):
     return link
 
 def checkRobotsForUrl(url):
-    global robotparser
     # Extract base URL
     parsedURL = urllib.parse.urlparse(url)
     robotsURL = parsedURL.scheme +  "://" + parsedURL.netloc + "/robots.txt"
-    robotparser.set_url(robotsURL)
-    robotparser.read()
-    return robotparser.can_fetch("*", url)
+    try:
+        robotparser = urllib.robotparser.RobotFileParser()
+        robotparser.set_url(robotsURL)
+        robotparser.read()
+        can_fetch = robotparser.can_fetch("*", url)
+        return can_fetch
+    except:
+        return True
 
 
 # We parse the user-input arguments
@@ -115,10 +124,7 @@ maxDownloads = parsedArgs[1]
 timeBetweenGETRequests = parsedArgs[2]
 depthFirst = parsedArgs[3]
 
-robotparser = urllib.robotparser.RobotFileParser()
-
 visitedLinks = set()
-print(checkRobotsForUrl(urlList[0]))
 
 for url in urlList:
     downloads = maxDownloads
