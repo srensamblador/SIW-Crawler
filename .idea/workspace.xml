@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7bbbe29-d1de-4deb-9600-7614e86f72ea" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/urls.txt" afterDir="false" />
-    </list>
+    <list default="true" id="e7bbbe29-d1de-4deb-9600-7614e86f72ea" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +83,7 @@
       <workItem from="1569505858107" duration="668000" />
       <workItem from="1569570489137" duration="3940000" />
       <workItem from="1569579711399" duration="2067000" />
-      <workItem from="1569589677699" duration="3811000" />
+      <workItem from="1569589677699" duration="3891000" />
     </task>
     <servers />
   </component>

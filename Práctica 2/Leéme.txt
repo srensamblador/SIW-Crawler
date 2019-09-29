@@ -1,0 +1,19 @@
+Samuel Cifuentes García
+UO238524
+
+Crawler
+
+################################################
+
+Parámetros que recibe el crawler:
+ 1. Nombre del archivo de semilla
+ 2. Número máximo de descargas por enlace de la semilla
+ 3. Tiempo en segundos entre peticiones
+ 4. (Opcional) Método de exploración, 0 para profundidad, 1 para anchura. 
+    Si no se especifica, se aplica profundidad
+
+Ejemplo de uso:
+	python crawler.py seed.txt 10 2 1
+
+#################################################
+

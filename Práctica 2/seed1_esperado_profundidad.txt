@@ -1,0 +1,49 @@
+Seed1 (Profundidad):
+#### Crawling Depth First #####
+Seed URL:  https://en.wikipedia.org/wiki/Dromaeosauroides
+Current URL: https://en.wikipedia.org/wiki/Dromaeosauroides
+Current URL: https://en.wikipedia.org/wiki/Wikipedia:Featured_articles
+Current URL: https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#semi
+Current URL: https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#mw-head
+Current URL: https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#p-search
+Current URL: https://en.wikipedia.org/wiki/Wikipedia:Requests_for_page_protection
+Current URL: https://en.wikipedia.org/wiki/Wikipedia:Requests_for_page_protection#mw-head
+Current URL: https://en.wikipedia.org/wiki/Wikipedia:Requests_for_page_protection#p-search
+Current URL: https://en.wikipedia.org/wiki/Wikipedia:Requests_for_permissions
+Current URL: https://en.wikipedia.org/wiki/Wikipedia:Protection_policy#extended
+#### Crawling Depth First #####
+Seed URL:  https://en.wikipedia.org/wiki/Theropoda
+Current URL: https://en.wikipedia.org/wiki/Theropoda
+Current URL: https://en.wikipedia.org/wiki/Theropoda#mw-head
+Current URL: https://en.wikipedia.org/wiki/Theropoda#p-search
+Current URL: https://en.wikipedia.org/wiki/Pteropoda
+Current URL: https://en.wikipedia.org/wiki/Pteropoda#mw-head
+Current URL: https://en.wikipedia.org/wiki/Pteropoda#p-search
+Current URL: https://en.wikipedia.org/wiki/File:Sea_angel.jpg
+Current URL: https://commons.wikimedia.org/wiki/File:Sea_angel.jpg
+Current URL: https://commons.wikimedia.org/wiki/File:Sea_angel.jpg#mw-head
+Current URL: https://commons.wikimedia.org/wiki/File:Sea_angel.jpg#p-search
+#### Crawling Depth First #####
+Seed URL:  https://en.wikipedia.org/wiki/Dinosaur
+Current URL: https://en.wikipedia.org/wiki/Dinosaur
+Current URL: https://en.wikipedia.org/wiki/File:Dinosaur.ogg
+Current URL: https://commons.wikimedia.org/wiki/File:Dinosaur.ogg
+Current URL: https://commons.wikimedia.org/wiki/File:Dinosaur.ogg#mw-head
+Current URL: https://commons.wikimedia.org/wiki/File:Dinosaur.ogg#p-search
+Current URL: https://commons.wikimedia.org/wiki/File:Dinosaur.ogg#file
+Current URL: https://commons.wikimedia.org/wiki/File:Dinosaur.ogg#filehistory
+Current URL: https://commons.wikimedia.org/wiki/File:Dinosaur.ogg#filelinks
+Current URL: https://commons.wikimedia.org/wiki/File:Dinosaur.ogg#globalusage
+Current URL: https://commons.wikimedia.org/wiki/File:Dinosaur.ogg#metadata
+#### Crawling Depth First #####
+Seed URL:  https://en.wikipedia.org/wiki/Early_Cretaceous
+Current URL: https://en.wikipedia.org/wiki/Early_Cretaceous
+Current URL: https://en.wikipedia.org/wiki/Early_Cretaceous#mw-head
+Current URL: https://en.wikipedia.org/wiki/Early_Cretaceous#p-search
+Current URL: https://en.wikipedia.org/wiki/System_(stratigraphy)
+Current URL: https://en.wikipedia.org/wiki/System_(stratigraphy)#mw-head
+Current URL: https://en.wikipedia.org/wiki/System_(stratigraphy)#p-search
+Current URL: https://en.wikipedia.org/wiki/Stratigraphy
+Current URL: https://en.wikipedia.org/wiki/Stratigraphy#mw-head
+Current URL: https://en.wikipedia.org/wiki/Stratigraphy#p-search
+Current URL: https://en.wikipedia.org/wiki/File:SEUtahStrat.JPG
